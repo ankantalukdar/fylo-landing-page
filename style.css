@@ -1,0 +1,39 @@
+:root {
+  /* colors */
+  --blue: hsl(243, 87%, 12%);
+  --light-blue: hsl(238, 22%, 44%);
+  --bright-blue: hsl(224, 93%, 58%);
+  --hover-blue: hsl(224, 93%, 75%);
+  --cyan: hsl(170, 45%, 43%);
+  --light-gray: hsl(0, 0%, 75%);
+  --bg-blue: hsl(240, 75%, 98%);
+
+  /* fonts */
+  --font-2: font-family: 'Raleway', sans-serif;
+
+  /* font sizes */
+  --font-md: 1rem;
+
+  /* font weigth */
+  --font-regular: 400;
+  --font-bold: 700;
+
+  /* spacing */
+  --space-250: 1.25rem;
+  --space-500: 2.5rem;
+  --space-600: 3rem;
+  --space-1000: 5rem;
+  --space-2000: 10rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: var(--font-200);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: var(--font-regular);
+  background-color: var(--bg-blue);
+}
